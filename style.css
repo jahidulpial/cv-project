@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color:#516B93;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 70%;
+    float: left;
+
+}
+
+.header-bio{
+    float: left;
+    padding:30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: whitesmoke;
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear:both;
+}
+
+hr{
+  border: solid white 3px;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
+}
+
+/*--------------------------
+Personal information Start
+---------------------------*/
+
+#personal-section{
+
+}
+.content{
+    margin: 30px;
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+     width: 70%;
+     float: left;
+}
+.common-hr{
+    border: 1px solid white;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+
+/*--------------------------
+Education information Start
+---------------------------*/
+.edu-left-div{
+    float: left;
+    width: 45%;
+}
+.edu-right-div{
+    float: right;
+    width: 45%;
+}
+
+/*--------------------------
+Footer Start
+---------------------------*/
+.bottom{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.bottom a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom p{
+    color: white;
+    margin-top: 10px;
+}
